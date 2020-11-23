@@ -10,6 +10,6 @@ node 'slave.example.com' {
   service{'httpd' :
     ensure => 'running',
     }
-  notify{'This is production envirnment' :
+  notify{'This is master envirnment' :
     {
 }
